@@ -804,7 +804,7 @@ export default {
 }
 
 .select-version-grid {
-  $min-col-width: 150px;
+  $min-col-width: 100px;
 
   position: absolute;
   margin-top: 15px;
