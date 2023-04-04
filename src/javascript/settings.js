@@ -70,7 +70,10 @@ export default async function setupSettings() {
     await settings.set('jvmArguments', defaultSettings.jvmArguments);
 
   // User's selected JRE Path
-  if (!(await settings.has('jrePath')) || (await settings.get('jrePath')) === '')
+  if (
+    !(await settings.has('jrePath')) ||
+    (await settings.get('jrePath')) === ''
+  )
     await settings.set('jrePath', await getDefaultJREPath());
 
   // Launch in debug mode
