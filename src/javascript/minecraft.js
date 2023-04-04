@@ -188,7 +188,7 @@ export async function invalidJRE(metadata) {
     });
     store.commit('setLaunching', true);
     const path = await getDefaultJREPath();
-    if (path == '') {
+    if (path === '') {
       logger.info('No JRE Already Installed, Downloading New One...');
       if (!(await downloadDefaultJRE(metadata))) return false;
     } else {
@@ -561,8 +561,8 @@ export async function getJavaArguments(
     '0',
     '--assetIndex',
     availableVersions
-      .find((i) => i.id == version.split('.').slice(0, 2).join('.'))
-      .subversions.find((i) => i.id == version).assets.id,
+      .find((i) => i.id === version.split('.').slice(0, 2).join('.'))
+      .subversions.find((i) => i.id === version).assets.id,
     '--userProperties',
     '{}',
     '--gameDir',
