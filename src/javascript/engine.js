@@ -46,7 +46,7 @@ export async function verifyEngine() {
       )
       .then((res) => {
         logger.debug(`Fetched Config Example:`, res.data);
-        if (res.status == 200)
+        if (res.status === 200)
           return writeFile(
             configExamplePath,
             JSON.stringify(res.data),
@@ -63,7 +63,7 @@ export async function verifyEngine() {
       )
       .then((res) => {
         logger.debug(`Fetched Metadata:`, res.data);
-        if (res.status == 200)
+        if (res.status === 200)
           return writeFile(metadataPath, JSON.stringify(res.data), 'utf-8');
       })
       .catch((err) => logger.throw('Failed to Fetch Metadata:', err)),

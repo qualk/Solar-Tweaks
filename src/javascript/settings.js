@@ -70,7 +70,10 @@ export default async function setupSettings() {
     await settings.set('jvmArguments', defaultSettings.jvmArguments);
 
   // User's selected JRE Path
-  if (!(await settings.has('jrePath')) || (await settings.get('jrePath')) == '')
+  if (
+    !(await settings.has('jrePath')) ||
+    (await settings.get('jrePath')) === ''
+  )
     await settings.set('jrePath', await getDefaultJREPath());
 
   // Launch in debug mode
@@ -148,7 +151,7 @@ export async function getDefaultJREPath() {
     dir2,
     (await readdir(dir2))?.find((i) => i.startsWith('zulu')) || ''
   );
-  if (!dir3 || dir3 == dir2) return '';
+  if (!dir3 || dir3 === dir2) return '';
   if (existsSync(join(dir3, 'bin'))) {
     return join(dir3, 'bin');
   } else if (existsSync(join(dir3, 'Contents'))) {
