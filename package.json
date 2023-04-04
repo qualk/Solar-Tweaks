@@ -1,6 +1,10 @@
 {
   "name": "solartweaks",
   "version": "4.3.4",
+  "description": "Solar Tweaks is a tool for tweaking and customizing Lunar Client. Give yourself an upgrade in your gaming experience.",
+  "homepage": "https://solartweaks.com/",
+  "keywords": ["lunarclient", "solartweaks", "solarsocket", "minecraft"],
+  "funding": "https://www.buymeacoffee.com/solarsocket",
   "author": "SolarTweaks",
   "contributors": [
     "RichardDorian",
@@ -10,11 +14,12 @@
     "Naibuu"
   ],
   "license": "GPL-3.0",
+  "bugs": {"url": "https://github.com/Solar-Tweaks/Solar-Tweaks/issues"},
   "repository": {
     "type": "git",
     "url": "https://github.com/Solar-Tweaks/Solar-Tweaks.git"
   },
-  "scripts": {
+    "scripts": {
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service electron:build",
     "serve": "vue-cli-service electron:serve",
