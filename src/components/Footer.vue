@@ -24,7 +24,7 @@
       </ul>
     </div>
     <div id="mojang-disclaimer-container">
-      <h4 class="footer-text">Not affiliated with Mojang, AB.</h4>
+      <h4 class="footer-text">Not affiliated with Mojang Studios or Moonsworth, LLC.</h4>
     </div>
   </div>
 </template>

@@ -25,7 +25,7 @@
             Modules to your own needs under the Engine tab, launch with a single
             click, and enjoy a new fully improved Lunar Client.
             <br />
-            We are not affiliated with "Mojang, AB" or "Moonsworth, LLC". We are
+            We are not affiliated with "Mojang Studios" or "Moonsworth, LLC". We are
             just a bunch of people that love Lunar Client and want to make it
             even better.
           </p>
@@ -34,7 +34,7 @@
           <CardItem
             title="Solar Tweaks"
             icon="fa-solid fa-comments"
-            subtitle="We are now using GitHub discussions to keep in touch with the community!"
+            subtitle="We are now using GitHub Discussions to keep in touch with the community!"
             class="little-card"
           >
             <button
