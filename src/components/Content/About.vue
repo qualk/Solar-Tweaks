@@ -19,15 +19,17 @@
           id="about-us-card-item"
         >
           <p id="about-us">
-            Solar Tweaks is a modification tool for Lunar Client. By modifying
-            the game's code when it gets loaded, we add a variety of features
-            that enhance your Minecraft experience. Browse and configure our
-            Modules to your own needs under the Engine tab, launch with a single
-            click, and enjoy a new fully improved Lunar Client.
-            <br />
-            We are not affiliated with "Mojang Studios" or "Moonsworth, LLC". We are
-            just a bunch of people that love Lunar Client and want to make it
-            even better.
+            Solar Tweaks is a modification tool for Lunar Client. By modifying 
+            the game's code when it gets loaded, we add a variety of features 
+            that enhance your Minecraft experience. 
+            <br>
+            In the Engine tab, browse and configure our Modules to suit your 
+            needs, launch with a single click, and enjoy a new and improved
+            Lunar Client.
+            <br> 
+            We are not affiliated with "Mojang Studios" or "Moonsworth, LLC".
+            We are just a bunch of people that love Lunar Client and want to make 
+            it even better.
           </p>
         </CardItem>
         <div id="little-cards">
