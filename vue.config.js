@@ -25,8 +25,8 @@ module.exports = {
           maintainer: 'Solar Tweaks',
           vendor: 'Solar Tweaks',
           icon: 'build/icons/linux/1024x1024.png',
-          synopsis: 'Solar Tweaks',
-          description: 'Solar Tweaks',
+          synopsis: 'Luanr Client tweaker/customizer',
+          description: 'Solar Tweaks is a tool for tweaking and customizing Lunar Client. Give yourself an upgrade in your gaming experience.',
           category: 'Game',
         },
         mac: {
